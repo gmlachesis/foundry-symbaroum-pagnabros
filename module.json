@@ -1,0 +1,42 @@
+{
+  "id": "symbaroumcustom",
+  "title": "Symbaroum_pagnabros",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description": "Custom rules for Symbaroum",
+  "authors": [
+    {
+      "name": "lachesis",
+      "url": "https://github.com/gmlachesis/symbaroum-foundry-01",
+      "discord": "gmlachesis"
+    }
+  ],
+  "packs": [
+    {
+      "name": "abilities",
+      "label": "abilities",
+      "path": "packs/abilities",
+      "type": "Item",
+      "system": "symbaroum",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "magic",
+      "label": "magic",
+      "path": "packs/magic",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "symbaroum"
+    }
+  ],
+  "url": "https://github.com/gmlachesis/symbaroum-foundry-01"
+}
